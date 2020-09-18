@@ -2,16 +2,59 @@
 <html>
     <head>
         <title>MUSIC</title>
+        <style>
+            body {
+                margin:0;
+            }
+            h1{
+                font-size: 30px;
+                color:rebeccapurple;
+                text-align: center;
+                border-bottom: 1px solid gray;
+                margin:0;
+                padding: 10px;
+            }
+            #grid ol {
+                border-right: 1px solid gray;
+                width: 100px;
+                margin:0;
+                padding: 20px;
+            }
+            a{
+                color: black;
+                text-decoration: none;
+                text-align: center;
+            }
+            #grid{
+                display: grid;
+                grid-template-columns: 150px 1fr;
+            }
+            #article{
+                margin: 10;
+                padding: 15px;
+                color:slategray;
+            }
+        </style>
     </head>
         <body>
             <h1>음악</h1>
-        <img src="music.jpg" width="30%">
-        <ul>
-            <li>드뷔시</li>
-            <li>쇼팽</li>
-            <li>라흐마니노프</li>
-            <li>베토벤</li>
-        </ul>
+            <div id="grid">
+                <ol>
+                    <li><a href="1.html">음식</a></li>
+                    <li><a href="2.html" style="color: mediumpurple;">음악</a></li>
+                    <li><a href="3.html">책</a></li>
+                    <li><a href="4.html">코딩</a></li>
+                </ol>
+                <div id="article">
+                    <img src="music.jpg" width="30%">
+                    <ul>
+                        <li>드뷔시</li>
+                        <li>쇼팽</li>
+                        <li>라흐마니노프</li>
+                        <li>베토벤</li>
+                    </ul>
+                </div>  
+            </div>
         <p>
             내 최애 피아노 영상 ! ! !<br>
             ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ<br>
